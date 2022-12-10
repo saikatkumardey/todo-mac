@@ -23,7 +23,6 @@ function createWindow() {
     win.loadFile('index.html')
 
     // Create a tray icon for the app
-    // Create a tray icon for the app
     const iconPath = 'app-icon.png'
     const icon = nativeImage.createFromPath(iconPath)
     icon.setTemplateImage(true)  // Make the icon small and native-looking
